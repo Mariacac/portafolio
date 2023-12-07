@@ -12,7 +12,7 @@
         interdum nam fames id. Hendrerit nullam rutrum facilisis dignissim
         tristique cubilia, bibendum tempus mattis sociis.
       </div>
-      <img src="img/LogoMar.png" class="maria-logo" />
+      <img src="/img/LogoMar.png" class="maria-logo" />
     </div>
   </section>
 </template>
