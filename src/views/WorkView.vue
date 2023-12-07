@@ -23,6 +23,9 @@
 
 <style scoped>
 section {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  min-height: 100vh;
   background-color: var(--white-vintage);
   width: 100%;
   background-color: var(--white-vintage);
@@ -31,51 +34,28 @@ section {
 }
 .selection-window {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: start;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 .selection-title {
+  text-wrap: nowrap;
   font-size: 85px;
-  grid-column: 1/2;
-  grid-row: 1/2;
 }
 .selection-options {
   font-size: 40px;
-  grid-column: 1/2;
-  grid-row: 2/3;
 }
 .work-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 200px);
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.work-container > div {
   background-color: var(--orange-vintage);
-  width: 160px;
-  height: 160px;
-  justify-content: end;
-}
-.display-one {
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
-.display-two {
-  grid-row: 1/2;
-  grid-column: 2/3;
-}
-.display-three {
-  grid-row: 1/2;
-  grid-column: 2/4;
-}
-.display-four {
-  grid-row: ;
-  grid-column: ;
-}
-.display-five {
-  grid-row: ;
-  grid-column: ;
-}
-.display-six {
-  grid-row: ;
-  grid-column: ;
 }
 </style>
