@@ -20,3 +20,13 @@
   font-weight: normal;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: var(--white-vintage);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange-vintage);
+  border-radius: 6px;
+  cursor: pointer;
+}
