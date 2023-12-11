@@ -9,9 +9,8 @@
     <img src="/img/LogoMar.png" class="logo-1" />
 
     <div class="side-bar">
-      <a href="" class="personal">LET'S TALK</a>
-
       <div class="screens">
+        <a href="" class="personal">LET'S TALK</a>
         <a href="art">ART</a>
         <a href="work">WORK</a>
         <a href="about">ABOUT</a>
